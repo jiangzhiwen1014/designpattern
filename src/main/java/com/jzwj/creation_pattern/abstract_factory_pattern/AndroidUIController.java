@@ -1,4 +1,4 @@
-package com.jzwj.abstract_factory_pattern;
+package com.jzwj.creation_pattern.abstract_factory_pattern;
 
 public class AndroidUIController implements UiController {
     @Override

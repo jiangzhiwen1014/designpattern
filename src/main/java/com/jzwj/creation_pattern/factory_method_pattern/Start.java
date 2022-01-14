@@ -1,4 +1,4 @@
-package com.jzwj.factory_method_pattern;
+package com.jzwj.creation_pattern.factory_method_pattern;
 
 /**
  * @className: Start
