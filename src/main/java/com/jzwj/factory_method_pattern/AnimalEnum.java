@@ -7,5 +7,5 @@ package com.jzwj.factory_method_pattern;
  * @date: 2021/12/31
  **/
 public enum AnimalEnum {
-  Elephant, Tiger
+    Elephant, Tiger
 }

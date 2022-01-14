@@ -7,9 +7,8 @@ package com.jzwj.factory_method_pattern;
  * @date: 2021/12/31
  **/
 public class Tiger implements Animal {
-
-  @Override
-  public void say() {
-    System.out.println("Tiger： say hello");
-  }
+    @Override
+    public void say() {
+        System.out.println("Tiger： say hello");
+    }
 }

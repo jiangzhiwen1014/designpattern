@@ -7,8 +7,8 @@ package com.jzwj.factory_method_pattern;
  * @date: 2021/12/31
  **/
 public class Elephant implements Animal {
-  @Override
-  public void say() {
-    System.out.println("Elephant： say hello");
-  }
+    @Override
+    public void say() {
+        System.out.println("Elephant： say hello");
+    }
 }
