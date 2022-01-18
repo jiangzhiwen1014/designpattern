@@ -1,0 +1,20 @@
+package com.jzwj.creation_pattern.builder_pattern;
+
+/**
+ * @className: Coke
+ * @description: TODO 类描述
+ * @author: jiangzhiwen
+ * @date: 2022/1/18
+ **/
+public class Coke extends ColdDrink {
+
+    @Override
+    public float price() {
+        return 30.0f;
+    }
+
+    @Override
+    public String name() {
+        return "Coke";
+    }
+}

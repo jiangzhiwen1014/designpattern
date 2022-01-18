@@ -1,0 +1,24 @@
+package com.jzwj.creation_pattern.builder_pattern;
+
+/**
+ * @className: MealBuilder
+ * @description: TODO 类描述
+ * @author: jiangzhiwen
+ * @date: 2022/1/18
+ **/
+public class MealBuilder {
+
+    public Meal prepareVegMeal (){
+        Meal meal = new Meal();
+        meal.addItem(new VegBurger());
+        meal.addItem(new Coke());
+        return meal;
+    }
+
+    public Meal prepareNonVegMeal (){
+        Meal meal = new Meal();
+        meal.addItem(new ChickenBurger());
+        meal.addItem(new Pepsi());
+        return meal;
+    }
+}
